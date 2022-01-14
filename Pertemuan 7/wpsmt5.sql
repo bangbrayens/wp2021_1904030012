@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 06:39 AM
+-- Generation Time: Jan 14, 2022 at 08:30 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -42,12 +42,12 @@ CREATE TABLE `calon_mhs` (
 --
 
 INSERT INTO `calon_mhs` (`id`, `nama`, `alamat`, `jenis_kelamin`, `agama`, `sekolah_asal`, `foto_maba`) VALUES
-(2, 'Savira', 'Cendana 28', 'perempuan', 'Islam', 'SMA 15', 'foto2.png'),
-(3, 'Denisa', 'Jayanegra 1', 'perempuan', 'Islam', 'SMAN 3', 'foto1.png'),
-(4, 'Ricky', 'Pulosari 5', 'laki-laki', 'Islam', 'SMAN 4', 'foto2.png'),
-(6, 'Rafli Abi', 'Karang 2', 'laki-laki', 'Islam', 'SMAN 5 ', 'foto2.png'),
+(3, 'Denisa', 'Jayanegra 1', 'perempuan', 'Islam', 'SMAN 3', 'foto2.png'),
+(4, 'Ricky', 'Pulosari 5', 'laki-laki', 'Islam', 'SMAN 4', 'foto1.png'),
+(6, 'Rafli Abi', 'Karang 2', 'laki-laki', 'Islam', 'SMAN 5 ', 'foto1.png'),
 (7, 'Rikas Prawira', 'Newton 8 ', 'laki-laki', 'Islam', 'SMAN 2', 'foto1.png'),
-(8, 'Adinda Safa', 'Ujung Kulon 42', 'perempuan', 'Islam', 'SMAN 1 Tangerang', 'foto2.png');
+(8, 'Adinda Safa', 'Ujung Kulon 42', 'perempuan', 'Islam', 'SMAN 1 Tangerang', 'foto2.png'),
+(9, 'Lukas', 'Bumi Serpong ', 'laki-laki', 'islam', 'SMAN 13', 'foto1.png');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +67,7 @@ ALTER TABLE `calon_mhs`
 -- AUTO_INCREMENT for table `calon_mhs`
 --
 ALTER TABLE `calon_mhs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
